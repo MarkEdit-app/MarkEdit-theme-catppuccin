@@ -1,10 +1,8 @@
 import { overrideThemes } from 'markedit-theming';
-import { isEnabled, darkTheme, lightTheme } from './src/settings';
+import { enabledMode, lightTheme, darkTheme } from './src/settings';
 import { themeNamed } from './src/themes';
 
-if (isEnabled) {
-  overrideThemes({
-    light: themeNamed(lightTheme),
-    dark: themeNamed(darkTheme),
-  });
-}
+overrideThemes({
+  light: ['both', 'light'].includes(enabledMode) ? themeNamed(lightTheme) : undefined,
+  dark: ['both', 'dark'].includes(enabledMode) ? themeNamed(darkTheme) : undefined,
+});

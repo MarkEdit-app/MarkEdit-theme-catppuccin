@@ -15,14 +15,14 @@ In [settings.json](https://github.com/MarkEdit-app/MarkEdit/wiki/Customization#a
 ```json
 {
   "extension.markeditThemeCatppuccin": {
-    "isEnabled": true,
+    "enabledMode": "both",
     "lightTheme": "latte",
     "darkTheme": "mocha"
   }
 }
 ```
 
-- `isEnabled`: Whether to enable this theme.
+- `enabledMode`: Enabled color scheme (`both`, `light`, `dark`, or `none` to disable).
 - `lightTheme`: Theme name for light mode, `latte` is the recommended value.
 - `darkTheme`: Theme name for dark mode, valid names are `frappe`, `macchiato`, `mocha`.
 

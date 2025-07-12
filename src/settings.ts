@@ -5,7 +5,7 @@ import { FlavorName } from './themes';
 const userSettings = toObject(MarkEdit.userSettings);
 const rootValue = toObject(userSettings['extension.markeditThemeCatppuccin']);
 
-export const isEnabled = (rootValue.isEnabled ?? true) as boolean;
+export const enabledMode = (rootValue.enabledMode ?? 'both') as string;
 export const lightTheme = (rootValue.lightTheme ?? 'latte') as FlavorName;
 export const darkTheme = (rootValue.darkTheme ?? 'mocha') as FlavorName;
 
