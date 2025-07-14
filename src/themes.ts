@@ -5,13 +5,10 @@ import type { FlavorName, CatppuccinColors } from '@catppuccin/palette';
 import { CustomTheme } from 'markedit-theming';
 
 export function themeNamed(name: FlavorName): CustomTheme {
-  const { blue, green, overlay1 } = colors[name];
   return {
     extension: extensions[name],
     colors: {
-      accentColor: blue.hex,
-      syntaxMarker: green.hex,
-      visibleSpace: overlay1.hex,
+      visibleSpace: colors[name].overlay1.hex,
     },
   };
 }

@@ -2,6 +2,8 @@
 
 [Catppuccin](https://catppuccin.com/) theme for [MarkEdit](https://github.com/MarkEdit-app/MarkEdit), built on top of [MarkEdit-theming](https://github.com/MarkEdit-app/MarkEdit-theming).
 
+To customize colors, see [Customization](https://github.com/MarkEdit-app/MarkEdit-theming/wiki#customization) for details.
+
 ## Installation
 
 Copy [dist/markedit-theme-catppuccin.js](dist/markedit-theme-catppuccin.js) to `~/Library/Containers/app.cyan.markedit/Data/Documents/scripts/`.
