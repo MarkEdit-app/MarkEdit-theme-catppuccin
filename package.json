@@ -20,6 +20,6 @@
   },
   "dependencies": {
     "@catppuccin/codemirror": "^1.0.0",
-    "markedit-theming": "https://github.com/MarkEdit-app/MarkEdit-theming#v0.13.0"
+    "markedit-theming": "https://github.com/MarkEdit-app/MarkEdit-theming#v0.14.0"
   }
 }
