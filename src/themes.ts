@@ -4,12 +4,7 @@ import type { FlavorName } from '@catppuccin/palette';
 import { CustomTheme } from 'markedit-theming';
 
 export function themeNamed(name: FlavorName): CustomTheme {
-  return {
-    extension: extensions[name],
-    colors: {
-      subtleEmphasis: true,
-    },
-  };
+  return { extension: extensions[name] };
 }
 
 export { FlavorName };
