@@ -360,17 +360,17 @@ fsevents@~2.3.2, fsevents@~2.3.3:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
   integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
-"markedit-api@https://github.com/MarkEdit-app/MarkEdit-api#v0.11.0":
-  version "0.11.0"
-  resolved "https://github.com/MarkEdit-app/MarkEdit-api#8a82bb1eeb15c47eedba8803245fe64cd1e6940f"
-
-"markedit-theming@https://github.com/MarkEdit-app/MarkEdit-theming#v0.14.0":
+"markedit-api@https://github.com/MarkEdit-app/MarkEdit-api#v0.14.0":
   version "0.14.0"
-  resolved "https://github.com/MarkEdit-app/MarkEdit-theming#de1253c8b8e450e66f50349c820fc6afb88d8333"
+  resolved "https://github.com/MarkEdit-app/MarkEdit-api#0aa038714a29cf990c3b9cd8ad3ae370e3d6ef2a"
 
-"markedit-vite@https://github.com/MarkEdit-app/MarkEdit-vite#v0.3.0":
-  version "0.3.0"
-  resolved "https://github.com/MarkEdit-app/MarkEdit-vite#5e19d971c80decf1a4d721654b32e8df6809b570"
+"markedit-theming@https://github.com/MarkEdit-app/MarkEdit-theming#v0.15.0":
+  version "0.15.0"
+  resolved "https://github.com/MarkEdit-app/MarkEdit-theming#c1298d5f54e16c0aeaeaf9f4cdd62ff863076503"
+
+"markedit-vite@https://github.com/MarkEdit-app/MarkEdit-vite#v0.4.0":
+  version "0.4.0"
+  resolved "https://github.com/MarkEdit-app/MarkEdit-vite#ab1f26c8676ebcd20b62009e24412774a1702164"
 
 nanoid@^3.3.11:
   version "3.3.11"
