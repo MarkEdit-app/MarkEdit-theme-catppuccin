@@ -21,7 +21,9 @@ In [settings.json](https://github.com/MarkEdit-app/MarkEdit/wiki/Customization#a
   "extension.markeditThemeCatppuccin": {
     "enabledMode": "both",
     "lightTheme": "latte",
-    "darkTheme": "mocha"
+    "darkTheme": "mocha",
+    "lightAccent": "mauve",
+    "darkAccent": "mauve"
   }
 }
 ```
@@ -29,5 +31,9 @@ In [settings.json](https://github.com/MarkEdit-app/MarkEdit/wiki/Customization#a
 - `enabledMode`: Enabled color scheme (`both`, `light`, `dark`, or `none` to disable).
 - `lightTheme`: Theme name for light mode, `latte` is the recommended value.
 - `darkTheme`: Theme name for dark mode, valid names are `frappe`, `macchiato`, `mocha`.
+- `lightAccent`: Accent color for light mode.
+- `darkAccent`: Accent color for dark mode.
+
+Valid accent names are `rosewater`, `flamingo`, `pink`, `mauve`, `red`, `maroon`, `peach`, `yellow`, `green`, `teal`, `sky`, `sapphire`, `blue`, and `lavender`.
 
 > Extension settings require MarkEdit 1.24.0 or later.
